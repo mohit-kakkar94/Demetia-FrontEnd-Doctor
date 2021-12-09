@@ -68,7 +68,7 @@ export class AppComponent implements OnInit {
     const results: Patient[] = [];
     for (const patient of this.patients) {
       if (patient.name.toLowerCase().indexOf(key.toLowerCase()) !== -1
-      || patient.uhid.toLowerCase().indexOf(key.toLowerCase()) !== -1 {
+      || patient.uhid.toLowerCase().indexOf(key.toLowerCase()) !== -1) {
         results.push(patient);
       }
     }
